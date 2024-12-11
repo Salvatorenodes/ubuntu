@@ -3,3 +3,5 @@ image:
 tasks:
   - command: |
       echo "Добро пожаловать в среду Gitpod, основанную на Ubuntu 22.04!"
+      echo "Инициализация среды..."
+      while sleep 60; do echo "Среда активна"; done
